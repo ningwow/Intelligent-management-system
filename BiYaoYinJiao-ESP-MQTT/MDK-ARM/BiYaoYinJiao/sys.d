@@ -1,0 +1,33 @@
+biyaoyinjiao\sys.o: ..\Drivers\SYSTEM\sys\sys.c
+biyaoyinjiao\sys.o: ..\Drivers\SYSTEM\sys\sys.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Include/core_cm3.h
+biyaoyinjiao\sys.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Include/cmsis_version.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+biyaoyinjiao\sys.o: ../Core/Inc/stm32f1xx_hal_conf.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+biyaoyinjiao\sys.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+biyaoyinjiao\sys.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+biyaoyinjiao\sys.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
