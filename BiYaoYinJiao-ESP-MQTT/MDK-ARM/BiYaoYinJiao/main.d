@@ -44,5 +44,5 @@ biyaoyinjiao\main.o: ../Drivers/BSP/oled/oled.h
 biyaoyinjiao\main.o: ../Drivers/BSP/pwm-dj/pwm-dj.h
 biyaoyinjiao\main.o: ../Drivers/BSP/pwm-duoji/pwm_duoji.h
 biyaoyinjiao\main.o: ../Drivers/BSP/SHT30/sht30.h
-biyaoyinjiao\main.o: ..\Drivers\BSP\ALIYUN\bsp_aliyun.h
-biyaoyinjiao\main.o: ..\Drivers\BSP\SetDate\setdate.h
+biyaoyinjiao\main.o: ../Drivers/BSP/ALIYUN/bsp_aliyun.h
+biyaoyinjiao\main.o: ../Drivers/BSP/SetDate/setdate.h

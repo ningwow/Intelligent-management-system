@@ -34,6 +34,7 @@ biyaoyinjiao\setdate.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex
 biyaoyinjiao\setdate.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 biyaoyinjiao\setdate.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\string.h
 biyaoyinjiao\setdate.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
-biyaoyinjiao\setdate.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\time.h
-biyaoyinjiao\setdate.o: ..\Drivers\BSP\ALIYUN\bsp_aliyun.h
+biyaoyinjiao\setdate.o: ../Drivers/BSP/oled/oled.h
+biyaoyinjiao\setdate.o: ../Core/Inc/i2c.h
+biyaoyinjiao\setdate.o: ../Drivers/BSP/ALIYUN/bsp_aliyun.h
 biyaoyinjiao\setdate.o: ../Core/Inc/usart.h

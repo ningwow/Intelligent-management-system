@@ -113,7 +113,9 @@ void ESP8266_Init(void)
 	else{
 		//printf("WIFI连接成功\r\n");
         OLED_CLS();
-		OLED_ShowStr(8,16,(uint8_t *)"WiFi connected",2);
+        OLED_ClearRAM();    //清除缓冲区
+        OLED_RefreshRAM();     //更新缓冲区
+		OLED_ShowStr(8,8,(uint8_t *)"WiFi connected",2);
 		//OLED_ShowStr(28,32,(uint8_t *)"",2);
         OLED_RefreshRAM();     //更新缓冲区
 	}

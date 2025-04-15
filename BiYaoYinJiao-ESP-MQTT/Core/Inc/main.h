@@ -60,17 +60,20 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN Private defines */
 
-// ¶¨ÒåÒ»¸ö½á¹¹ÌåÀ´´æ´¢²ÎÊýÃûºÍ¶ÔÓ¦µÄÖµ
+
+
+
+// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½Ó¦ï¿½ï¿½Öµ
 typedef struct {
-    const char* keyword;  // ²ÎÊýÃû
-    char value[100];      // ²ÎÊýÖµ»º³åÇø
+    const char* keyword;  // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    char value[100];      // ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 } Param;
 
-// ¶¨Òå²ÎÊýÌáÈ¡µÄ½á¹¹Ìå
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½Ä½á¹¹ï¿½ï¿½
 typedef struct {
-    const char* keyword;  // Òª²éÕÒµÄ¹Ø¼ü×Ö
-    char* value;          // ´æ´¢ÌáÈ¡ÖµµÄ»º³åÇø
-    int max_len;          // »º³åÇø×î´ó³¤¶È
+    const char* keyword;  // Òªï¿½ï¿½ï¿½ÒµÄ¹Ø¼ï¿½ï¿½ï¿½
+    char* value;          // ï¿½æ´¢ï¿½ï¿½È¡Öµï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½
+    int max_len;          // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó³¤¶ï¿½
 } ParamExtract;
 
 /* USER CODE END Private defines */

@@ -5,6 +5,7 @@
 void duoji_init(void){
     __HAL_RCC_GPIOA_CLK_ENABLE();
     HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
+    HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
 }
 
 
@@ -22,4 +23,12 @@ void duoji_set(int a, int num){    //舵机控制范围为50HZ。0.5-2.5ms。这里0-199。2
         __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,num);
 
     }
+}
+
+void led_set(int num){
+    if(num > 199)   num = 199;
+    else if(num < 0)    num = 0;
+    
+    __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,num);
+
 }
